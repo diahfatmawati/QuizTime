@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu   xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools">
+    <item   android:id="@+id/levelFragment"
+            android:icon="@drawable/sura"
+            android:title="Level"/>
+    <item   android:id="@+id/shopFragment"
+            android:icon="@drawable/baya"
+            android:title="Shop"/>
+    <item   android:id="@+id/soundFragment"
+            android:icon="@drawable/sura"
+            android:title="Sound"/>
+    <item   android:id="@+id/vibrateFragment"
+            android:icon="@drawable/baya"
+            android:title="Vibrate"/>
+    <item   android:id="@+id/rulesFragment"
+            android:icon="@drawable/sura"
+            android:title="How to Play"
+            tools:layout="@layout/rules"/>
+    <item   android:id="@+id/aboutFragment"
+            android:icon="@drawable/baya"
+            android:title="About Me"/>
+</menu>

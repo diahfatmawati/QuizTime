@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="?colorPrimary">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/question_horizontal_margin"
+        android:layout_marginTop="@dimen/question_horizontal_margin"
+        android:layout_marginEnd="@dimen/question_horizontal_margin"
+        android:fontFamily="@font/acme"
+        android:text="How to Play"
+        android:textAlignment="center"
+        android:textSize="@dimen/question_text_size"
+        android:textStyle="bold"
+        android:typeface="normal"
+        android:textColor="#FFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/question_horizontal_margin"
+        android:layout_marginTop="@dimen/vertical_margin"
+        android:layout_marginEnd="@dimen/question_horizontal_margin"
+        android:fontFamily="@font/acme"
+        android:text="1. Buka Aplikasi Game Sby"
+        android:justificationMode="inter_word"
+        android:textSize="@dimen/answer_text_size"
+        android:typeface="normal"
+        android:textColor="#FFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/judul" />
+
+    <TextView
+        android:id="@+id/desc1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/question_horizontal_margin"
+        android:layout_marginTop="@dimen/vertical_margin"
+        android:layout_marginEnd="@dimen/question_horizontal_margin"
+        android:fontFamily="@font/acme"
+        android:text="2. Klik Navbar terdapat pilihan Level, untuk memilih level quiz"
+        android:justificationMode="inter_word"
+        android:textSize="@dimen/answer_text_size"
+        android:typeface="normal"
+        android:textColor="#FFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/desc" />
+
+    <TextView
+        android:id="@+id/desc2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/question_horizontal_margin"
+        android:layout_marginTop="@dimen/vertical_margin"
+        android:layout_marginEnd="@dimen/question_horizontal_margin"
+        android:fontFamily="@font/acme"
+        android:text="3. Klik Play untuk memulai permainan"
+        android:justificationMode="inter_word"
+        android:textSize="@dimen/answer_text_size"
+        android:typeface="normal"
+        android:textColor="#FFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/desc1" />
+
+    <TextView
+        android:id="@+id/desc3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/question_horizontal_margin"
+        android:layout_marginTop="@dimen/vertical_margin"
+        android:layout_marginEnd="@dimen/question_horizontal_margin"
+        android:fontFamily="@font/acme"
+        android:text="4. Jika jawaban benar akan tampil button 'next match', klik untuk melanjutkan permainan"
+        android:justificationMode="inter_word"
+        android:textSize="@dimen/answer_text_size"
+        android:typeface="normal"
+        android:textColor="#FFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/desc2" />
+
+    <TextView
+        android:id="@+id/desc4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/question_horizontal_margin"
+        android:layout_marginTop="@dimen/vertical_margin"
+        android:layout_marginEnd="@dimen/question_horizontal_margin"
+        android:fontFamily="@font/acme"
+        android:text="5. Jika jawaban salah akan tampil button 'try again', klik untuk mengulang permainan"
+        android:justificationMode="inter_word"
+        android:textSize="@dimen/answer_text_size"
+        android:typeface="normal"
+        android:textColor="#FFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/desc3" />
+
+    <TextView
+        android:id="@+id/wow"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/question_horizontal_margin"
+        android:layout_marginEnd="@dimen/question_horizontal_margin"
+        android:layout_marginTop="350dp"
+        android:fontFamily="@font/acme"
+        android:textAlignment="center"
+        android:text="by DiahFatmawati2020"
+        android:textColor="#FFF"
+        android:textSize="@dimen/answer_text_size"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/desc4"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
